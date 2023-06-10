@@ -19,3 +19,4 @@ async function getWeather(city) {
 
 // Виклик функції для отримання погоди
 getWeather('Kyiv');
+// Кінець коду
