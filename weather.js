@@ -3,7 +3,7 @@ const axios = require('axios');
 // Функція для отримання погоди за назвою міста
 async function getWeather(city) {
   try {
-    const apiKey = 'YOUR_API_KEY'; // Потрібно отримати власний API-ключ
+    const apiKey = 'YOUR_API_KEY'; // Потрібно отримати власний API-ключ на сайті
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     const response = await axios.get(url);
